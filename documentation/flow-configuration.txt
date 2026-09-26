@@ -1,0 +1,78 @@
+PROJECT: Streamlining IT Procurement
+Automating Standard Laptop Orders with Flow Designer
+
+FLOW CONFIGURATION
+
+Flow Name:
+Standard Laptop Task
+
+Application:
+Global
+
+Run As:
+System user
+
+Trigger:
+Service Catalog
+
+Action:
+Create Catalog Task
+
+Request Item:
+Requested Item Record
+
+Table:
+Catalog Task
+
+Short Description:
+Laptop need to Configured
+
+Description:
+Laptop need to Configured
+
+Assignment Group:
+Hardware
+
+Approval:
+Approved
+
+
+FLOW ASSIGNMENT
+
+Catalog Item:
+Standard Laptop
+
+Process Engine:
+Flow
+
+Assigned Flow:
+Standard Laptop Task
+
+
+SERVICE CATALOG PROCESS
+
+1. Open Service Catalog.
+2. Select Hardware.
+3. Select Standard Laptop.
+4. Click Order Now.
+5. Open the Request Number.
+6. Open the Approvers section.
+7. Approve the request.
+8. Open the Requested Item.
+9. Open Catalog Tasks.
+10. Verify the Short Description and Assignment Group.
+
+
+EXPECTED RESULT
+
+After the Standard Laptop request is approved,
+a Catalog Task should be created automatically.
+
+Short Description:
+Laptop need to Configured
+
+Assignment Group:
+Hardware
+
+Approval:
+Approved
